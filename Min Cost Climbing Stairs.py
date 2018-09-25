@@ -29,13 +29,6 @@ print(min(cost[-1],cost[-2]))
 
 
 
-
-
-
-
-
-
-
 # 錯誤答案
 # cost0 = [0]+cost
 # print(cost0)
