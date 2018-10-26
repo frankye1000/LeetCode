@@ -4,6 +4,3 @@ C = 'e'
 
 Cindex = [i for i, v in enumerate(S) if v == C]
 print([min([abs(i - j) for j in Cindex]) for i in range(len(S))])
-
-
-
