@@ -27,11 +27,11 @@ for i in pattern:
     if i not in dic:
         dic[i] = count
         count += 1
-
+print(dic)
 pattern_string = ''
 for i in pattern:
     pattern_string += str(dic[i])
-
+print(pattern_string)
 
 output = []
 for word in words:
