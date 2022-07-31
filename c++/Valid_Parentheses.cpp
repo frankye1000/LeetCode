@@ -3,6 +3,8 @@
 #include<stack>
 using namespace std;
 
+// hint:use stack
+
 int main(){
     string s;
     cin>>s;
@@ -23,13 +25,8 @@ int main(){
             }else{
                 st.push(s[i]);
             }
-        }
-        
+        }   
     }
-    
-
-
-    
     if(!st.empty()) ans=false;
     
     cout<<ans<<endl;
