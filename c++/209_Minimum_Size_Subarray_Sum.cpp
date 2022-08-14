@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-
+// slid window
 int main(){
     int target=4;
     vector<int> nums={1,1,1};
